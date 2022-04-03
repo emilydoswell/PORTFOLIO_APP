@@ -19,11 +19,9 @@ body {
 .header {
   text-align: center;
   margin: 3%;
-}
-
-.home-header {
   margin-top: 20%;
 }
+
 .home-header-name {
   font-size: 6vw;
 }
@@ -60,12 +58,12 @@ button:hover {
   border: 1px solid black;
 } 
 
-@media(min-width: 700px) {
+@media(max-width: 700px) {
   .header {
-    margin: 3%
+    margin: 3%;
+    margin-top: 200px;
   }
 
   .home-header {
-    margin top: 50%;
   }
 }
